@@ -4,7 +4,9 @@
 ## Step 8 train 및 tensorboard 사용방법
 
 ----------------------- 파일 및 폴더 상태 -------------------------
+
 ( + 폴더, - 파일 )
+
     + obj_recog
             + training
                     + data
@@ -25,13 +27,13 @@
             - xml_to_csv.py
             - generate_tfrecord.py
 
--------------------------------------------------------------------------
 
 이 폴더들을 옮기자.
 
 obj_recog 폴더 안에 있는 data 폴더, faster_rcnn_resnet101_coco_2018_01_28.config, faster_rcnn_resnet101_coco_2018_01_28.tar.gz 를 \models\research\object_detection\ 폴더에 옮기자.
 
 ----------------------- 파일 및 폴더 상태 -------------------------
+
 ( + 폴더, - 파일 )
 
     + models
@@ -44,7 +46,7 @@ obj_recog 폴더 안에 있는 data 폴더, faster_rcnn_resnet101_coco_2018_01_2
                         - object-detection.pbtxt
                     - faster_rcnn_resnet101_coco_2018_01_28.config
                     - faster_rcnn_resnet101_coco_2018_01_28.tar.gz
--------------------------------------------------------------------------
+
 
 옮긴 후 faster_rcnn_resnet101_coco_2018_01_28.tar.gz 는 압축 풀어 놓는다.
 

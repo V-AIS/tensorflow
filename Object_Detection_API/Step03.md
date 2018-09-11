@@ -54,7 +54,9 @@ $ python3 generate_tfrecord.py --csv_input=data/test_labels.csv --output_path=da
 ```
 
 ----------------------- 파일 및 폴더 상태 -------------------------
+
 ( + 폴더, - 파일 )
+
     + obj_recog
             + data
                     - train_labels.csv
@@ -70,7 +72,6 @@ $ python3 generate_tfrecord.py --csv_input=data/test_labels.csv --output_path=da
                             - test_xmls
             - xml_to_csv.py
             - generate_tfrecord.py
------------------------------------------------------------------------
 
 
 ## Step 6 자신이 사용할 model과 config 파일을 다운받고 수정하기
@@ -123,7 +124,9 @@ config 파일을 살펴보자.
 
 
 ----------------------- 파일 및 폴더 상태 -------------------------
+
 ( + 폴더, - 파일 )
+
     + obj_recog
             + data
                     - train_labels.csv
@@ -141,7 +144,7 @@ config 파일을 살펴보자.
             - generate_tfrecord.py
             - faster_rcnn_resnet101_coco_2018_01_28.config
             - faster_rcnn_resnet101_coco_2018_01_28.tar.gz
------------------------------------------------------------------------
+
 
 ## Step 7 pbtxt 확장자 파일 만들기 ( 각 image의 이름 및 class 정해주기 )
 
@@ -158,7 +161,9 @@ name은 class name 이고 display_name은 test 시 나오는 이름이다.
  data 폴더 안에 저장.
 
 ----------------------- 파일 및 폴더 상태 -------------------------
+
 ( + 폴더, - 파일 )
+
     + obj_recog
             + data
                     - train_labels.csv
@@ -177,4 +182,3 @@ name은 class name 이고 display_name은 test 시 나오는 이름이다.
             - generate_tfrecord.py
             - faster_rcnn_resnet101_coco_2018_01_28.config
             - faster_rcnn_resnet101_coco_2018_01_28.tar
--------------------------------------------------------------------------
