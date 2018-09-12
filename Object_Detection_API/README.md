@@ -1,10 +1,15 @@
 # TensorFlow Objet Detection API 사용법
+
+
 ---
+
 2018.09.12
 
-제작자 : **흔공/로봇 비전/연구원** [명함 링크](https://open.kakao.com/me/kape67)
+제작 : **카카오톡 오픈채팅방** [V.ais](https://open.kakao.com/o/ghU9D1o)
 
-도우미 : **Jerry/의료영상/석사과정** [명함 링크](https://open.kakao.com/o/s1BnRpH)
+- 저자 : **흔공/로봇 비전/연구원** [명함 링크](https://open.kakao.com/me/kape67)
+
+- 편집 : **Jerry/의료영상/석사과정** [명함 링크](https://open.kakao.com/o/s1BnRpH)
 
 ---
 
@@ -15,6 +20,3 @@
 개선했으면 하는 사항 또는 수정되었으면 하는 사항에 대해서 명함 링크로 연락을 주시거나 [**이슈 등록**](https://github.com/V-AIS/tensorflow/issues)을 해주세요.
 
 감사합니다.
-
-
-**이 내용은 오픈채팅방 [V.ais](https://open.kakao.com/o/ghU9D1o)에서 만들었습니다.**
