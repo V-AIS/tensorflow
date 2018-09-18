@@ -1,4 +1,4 @@
-# TensorFlow for V.AIS
+# TensorFlow for V.ais
 
 ---
 ## Tutorial
