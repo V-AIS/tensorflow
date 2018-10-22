@@ -5,5 +5,7 @@
   - Using nn
   
   - Using estimator
+  
+  - GAN
 
 ## Object Detection API 사용법
