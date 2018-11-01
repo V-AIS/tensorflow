@@ -19,10 +19,10 @@ generate_tfrecord.py 파일을 다운 받는다.
 
 xml 파일에 class ( object - name ) 를 적을 때 그 단어를 그대로 적어야 한다.
 ``` python3
-if row_label == 'cracker':
+if row_label == 'cantatacoffee':
     return 1
-elif row_label =='cup':
-    reuturn 2
+elif row_label =='febreze':
+    return 2
 ...
 ```
 
@@ -150,9 +150,44 @@ config 파일을 살펴보자.
 
 pbtxt 는 class의 이름과 id 등을 기입하는 파일이다.
 
-<img src="./image/step_03_08.png">
-
-위 그림과 같이 기입한다.
+```
+item {
+    name: "cantatacoffee"
+    id: 1
+    display_name: "cantatacoffee"
+}
+item {
+    name: "febreze"
+    id: 2
+    display_name: "febreze"
+}
+item {
+    name: "greentea"
+    id: 3
+    display_name: "greentea"
+}
+item {
+    name: "melona"
+    id: 4
+    display_name: "melona"
+}
+item {
+    name: "pringlesred"
+    id: 5
+    display_name: "pringlesred"
+}
+item {
+    name: "pringlesgreen"
+    id: 6
+    display_name: "pringlesgreen"
+}
+item {
+    name: "topcoffee"
+    id: 7
+    display_name: "topcoffee"
+}
+```
+위와 같이 기입한다.
 
 name은 class name 이고 display_name은 test 시 나오는 이름이다.
 
